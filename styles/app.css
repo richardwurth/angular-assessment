@@ -1,25 +1,50 @@
 .jumbotron {
-    background: url('http://ugmonk.com/wp-content/uploads/2016/03/category-clothing-1.jpg') center no-repeat;
-    background-size: cover;
-    height: 60vh;
-    width: 75%;
-    margin: auto;
-    color: #fff;
-    text-align: center;
+  background: url('http://ugmonk.com/wp-content/uploads/2016/03/category-clothing-1.jpg') center no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 75%;
+  margin: auto;
+  color: #fff;
+  text-align: center;
 
+}
+
+.noselect {
+  user-select: none;
+  cursor: default;
 }
 
 .jumbotron h1 {
-    color: #fff;
+  color: #fff;
+}
+
+li {
+  cursor: pointer;
+}
+
+.grow {
+  transition: all .4s;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.main-cta {
+  width: 45%;
+  margin: auto;
+  background: transparent;
+  border: 2px solid #424242;
+  color: #424242;
 }
 
 
-.main-cta {
-    width: 45%;
-    margin: auto;
-    background: transparent;
-    border: 2px solid #424242;
-    color: #424242;
+.logo {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
 }
 
 
